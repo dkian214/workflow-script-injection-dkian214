@@ -26,5 +26,3 @@ jobs:
       - name: Check issue title
         env:
             ISSUE_TITLE: ${{ github.event.issue.title }}
-        run: |
-        ...
